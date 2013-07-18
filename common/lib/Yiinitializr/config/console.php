@@ -19,7 +19,7 @@ require_once dirname(__FILE__) . '/../Helpers/ArrayX.php';
  */
 return Yiinitializr\Helpers\ArrayX::merge(
 	Yiinitializr\Helpers\Initializer::config('console', array(
-		dirname(__FILE__) . '/../../../config/main.php',
+		dirname(__FILE__) . '/../../../config/common.php',
 		dirname(__FILE__) . '/../../../config/env.php',
 		'local')),
 	array(

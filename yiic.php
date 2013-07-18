@@ -12,8 +12,10 @@
 require('./common/lib/vendor/autoload.php');
 
 Yiinitializr\Helpers\Initializer::create('./console', 'console', array(
-	'./common/config/main.php',
+	'./common/config/common.php',
 	'./common/config/env.php',
 	'./common/config/local.php',
+	'env',
+	'local',
 ))->run();
 
